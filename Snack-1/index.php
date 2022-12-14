@@ -5,26 +5,26 @@ Olimpia Milano - Cantù | 55-60 -->
 <?php
 $partite = [
     [
-        'squadracasa' => 'Milano' ,
+        'squadracasa' => 'Milano',
         'squadraospite' => 'Cantu',
         'punticasa' => 55,
         'puntiospite' => 60,
     ],
     [
-        'squadracasa' => 'Genova' , 
+        'squadracasa' => 'Genova',
         'squadraospite' => 'Bari',
         'punticasa' => 70,
         'puntiospite' => 80,
     ],
     [
-        'squadracasa' => 'Treviso' , 
+        'squadracasa' => 'Treviso',
         'squadraospite' => 'Palermo',
         'punticasa' => 25,
         'puntiospite' => 45,
     ]
-    ];
+];
 
-    for($i = 0; $i < count($partite); $i++){
-        echo $partite[$i]['squadracasa'] . '-' . $partite[$i]['squadraospite'] . '|' . $partite[$i]['punticasa'] . '-' . $partite[$i]['puntiospite'];
-    };
+for ($i = 0; $i < count($partite); $i++) {
+    echo $partite[$i]['squadracasa'] . '-' . $partite[$i]['squadraospite'] . '|' . $partite[$i]['punticasa'] . '-' . $partite[$i]['puntiospite'];
+};
 ?>
